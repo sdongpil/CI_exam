@@ -16,7 +16,8 @@ jobs:
     - name: Set up JDK
       uses: actions/setup-java@v3
       with:
-        java-version: '17'  # 사용하는 Java 버전으로 설정하세요.
+        java-version: '17'
+        distribution: adopt
 
     - name: Build and test with Gradle
       run: |
