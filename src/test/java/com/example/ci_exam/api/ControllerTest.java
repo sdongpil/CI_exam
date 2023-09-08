@@ -18,5 +18,6 @@ class ControllerTest {
         String message = controller.get();
 
         assertEquals(message,"실패");
+
     }
 }
