@@ -30,5 +30,14 @@ class ControllerTest {
 
     }
 
+    @Test
+    void t3() {
+
+        String message = controller.get();
+
+        assertEquals(message,"실패 테스트");
+
+    }
+
 
 }
