@@ -26,7 +26,7 @@ class ControllerTest {
 
         String message = controller.get();
 
-        assertEquals(message,"실패 테스트");
+        assertEquals(message,"ci test");
 
     }
 
@@ -35,7 +35,7 @@ class ControllerTest {
 
         String message = controller.get();
 
-        assertEquals(message,"실패 테스트");
+        assertEquals(message,"ci test");
 
     }
 
