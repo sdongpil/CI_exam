@@ -19,6 +19,5 @@ class ControllerTest {
 
         assertEquals(message,"ci test");
 
-
     }
 }
