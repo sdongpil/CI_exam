@@ -20,4 +20,15 @@ class ControllerTest {
         assertEquals(message,"ci test");
 
     }
+
+    @Test
+    void t2() {
+
+        String message = controller.get();
+
+        assertEquals(message,"실패 테스트");
+
+    }
+
+
 }
